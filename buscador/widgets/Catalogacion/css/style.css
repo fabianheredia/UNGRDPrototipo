@@ -1,0 +1,20 @@
+.jimu-widget-catalogacion select {
+    width: 100%;
+}
+
+.jimu-widget-catalogacion .oculto {
+    visibility: hidden;
+}
+
+.jimu-widget-catalogacion .visible {
+    visibility: visible;
+}
+
+.jimu-widget-catalogacion .loader {
+    text-align: center;
+}
+
+.jimu-widget-catalogacion .loader>span {
+    display: block;
+    margin-top: 0.5em;
+}

@@ -1,0 +1,11 @@
+{
+    "urlServicio": "https://services1.arcgis.com/EQKuytW7L0SoDLlp/arcgis/rest/services/buscadorUNGRD/FeatureServer/",
+    "tiposDocumento": {
+        "POT": "Plan de ordenamiento territorial",
+        "Plan Municipal de Gestión del Riesgo de Desastres": "Plan Municipal de Gestión del Riesgo de Desastres",
+        "Plan Departamental de Gestión del Riesgo de Desastres": "Plan Departamental de Gestión del Riesgo de Desastres",
+        "Est1": "Estrategia Municipal para la respuesta de Emergencias",
+        "Estrategia Departamental para la respuesta de Emergencias": "Estrategia Departamental para la respuesta de Emergencias",
+        "Plan3": "Plan de Contingencias de GRD"
+    }
+}

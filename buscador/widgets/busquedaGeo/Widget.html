@@ -1,0 +1,25 @@
+<div>
+	<div id="contenido">
+		<div id="opciones">
+			<div class="ayuda">${nls.indicaciones}</div>
+			<div class="iconos">
+				<button class="draw-icon" id="Point" title="${nls.punto}"></button>
+				<button class="draw-icon" id="Line" title="${nls.linea}"></button>
+				<button class="draw-icon" id="Polygon" title="${nls.poligono}"></button>
+				<button class="draw-icon" id="FreehandPolygon" title="${nls.poligonoLibre}"></button>
+			</div>
+		</div>
+		<div style = "display:none" id="buffer-params">
+			<label for="buffer-size">${nls.distancia}</label>
+			<div id="slider_buffer"></div>
+			<input type="text" id="buffer-size">
+			<select id="buffer-unit">
+				<option value="UNIT_METER" selected>${nls.metros}</option>
+				<option value="UNIT_KILOMETER">${nls.kilometros}</option>
+				<option value="UNIT_STATUTE_MILE">${nls.millas}</option>
+			</select>
+		</div>
+		<button id="btn_clear" style="display: none;">${nls.limpiar}</button>
+	</div>
+	<div id="resultados-identify" style="width: auto; height: auto"></div>	
+</div>	

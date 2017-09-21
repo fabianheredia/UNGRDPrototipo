@@ -1,0 +1,169 @@
+.jimu-widget-indicadores {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+[class*='col'] {
+    float: left;
+    margin: 2px 0;
+}
+
+.col1 {
+    width: 8.33%;
+}
+
+.col2 {
+    width: 16.66%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+.col4 {
+    width: 33.33%;
+}
+
+.col5 {
+    width: 41.66%;
+}
+
+.col6 {
+    width: 50%;
+}
+
+.col7 {
+    width: 58.33%;
+}
+
+.col8 {
+    width: 66.66%;
+}
+
+.col9 {
+    width: 75%;
+}
+
+.col10 {
+    width: 83.33%;
+}
+
+.col11 {
+    width: 91.66%;
+}
+
+.col12 {
+    width: 100%;
+}
+
+.baja {
+    width: 55px;
+    background-color: #4CAF50;
+    border: 1px solid #1F6F22;
+}
+
+.media {
+    width: 110px;
+    background-color: #ffff66;
+    border: 1px solid #B0BB15;
+}
+
+.alta {
+    width: 165px;
+    background-color: #ff6600;
+    border: 1px solid #933B00;
+}
+
+.critica {
+    width: 220px;
+    background-color: #f44336;
+    border: 1px solid #BB2015;
+}
+
+.no-info {
+    width: 20px;
+    background-color: #ccc;
+    border: 1px solid #444;
+}
+
+.indicador {
+    height: 1.5em;
+    transition: width 0.3s, background-color 0.3s, border 0.3s;
+}
+
+.row:first-child {
+    line-height: 1.5em;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.encabezado-municipio {
+    width: 100%;
+    text-align: center;
+}
+
+.encabezado-municipio h5 {
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 2px 0 5px 0;
+}
+
+.jimu-container {
+    padding: 0 !important;
+}
+
+div.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.tab button.peligro {
+    background-color: #E6F6BA;
+    border: 1px solid #90A064;
+    color: #90A064;
+}
+
+div.tab button.sistemas {
+    background-color: #BAE6F6;
+    border: 1px solid #1FB0E4;
+    color: #1FB0E4;
+}
+
+div.tab button.indicadores {
+    background-color: #F6E8BA;
+    border: 1px solid #A09264;
+    color: #A09264;
+}
+
+div.tab button.declaratorias {
+    background-color: #FCC9CC;
+    border: 1px solid #B2424B;
+    color: #B2424B;
+}
+
+div.tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 10px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 14px;
+    border-top: none;
+}
+
+div.tab button.active {
+    border-bottom: none;
+}

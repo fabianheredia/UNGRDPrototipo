@@ -1,0 +1,42 @@
+{
+    "servicio": "https://services1.arcgis.com/EQKuytW7L0SoDLlp/ArcGIS/rest/services/munic_Atlas3/FeatureServer/0",
+    "indicadores": {
+        "1": "baja",
+        "2": "media",
+        "3": "alta",
+        "4": "critica"
+    },
+    "selectores": {
+        "Desbordes": "desborde",
+        "Deslizamiento": "deslizamiento",
+        "Faya": "faya",
+        "Geologica": "geologica"
+    },
+    "camposSistemas": {
+        "Poblacion": "#D5D56B",
+        "Viviendas": "#A0D56B",
+        "Escuelas": "#6BA0D5",
+        "Hospitales": "#A06BD5",
+        "Bancos": "#D56B6B",
+        "Gasolineras": "#D5A06B",
+        "Supermercados": "#E6CA41",
+        "Aeropuertos": "#41E6CA"
+    },
+    "camposIndicadores": {
+        "PoblacionF": {
+            "color": "#D56B6B",
+            "alias": "Población Femenina"
+        },
+        "PoblacionM": {
+            "color": "#6BA0D5",
+            "alias": "Población Masculina"
+        }
+    },
+    "camposDeclaratorias": {
+        "D_desbordes": "Desbordamientos",
+        "D_deslizamiento": "Deslizamientos",
+        "D_Faya": "Fayas",
+        "D_Geologica": "Geológicas",
+        "D_Inindaciones": "Inundaciones"
+    }
+}

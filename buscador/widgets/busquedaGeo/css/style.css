@@ -1,0 +1,109 @@
+@import url("claro.css");
+
+.jimu-widget-identifybuffer .jimu-table-row {
+	color: #000;
+}
+
+.jimu-widget-identifybuffer .attrTable {
+	border-top: 1px solid #AAA;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.jimu-widget-identifybuffer #buffer-params{
+	margin: 10px 0px;
+}
+
+.jimu-widget-identifybuffer #buffer-params input{
+	width: 40px;
+}
+.noModal_underlay{
+	display: none;
+}
+
+.jimu-widget-identifybuffer #slider_buffer, #buffer-size{
+	display: inline-block;
+}
+
+.jimu-widget-identifybuffer #contenido{
+	display: none;
+}
+
+.jimu-widget-identifybuffer #loading{
+	width: 100%;
+	display: block;
+}
+
+.jimu-widget-identifybuffer #loading img{
+	width: 64px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+.jimu-widget-identifybuffer .dijitAccordionContainer .dijitAccordionContainer-child {
+    width: auto !important;
+    height: auto !important;
+}
+
+.tabla_resultados_buffer_error{
+	position: relative;
+	top: 30%;
+}
+.tabla_resultados_buffer_error h3{
+	color: #F00;
+}
+
+.jimu-widget-identifybuffer .ayuda {
+	margin-bottom: 5px;
+}
+
+.jimu-widget-identifybuffer .iconos {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: auto;
+}
+
+.jimu-widget-identifybuffer .draw-icon {
+	background-image: url("../images/draw-icons.png");
+	width: 40px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px; 
+}
+
+.jimu-widget-identifybuffer #Point {
+	background-position: -4px -5px; 
+}
+
+.jimu-widget-identifybuffer #Line {
+	background-position: -58px -5px; 
+}
+
+.jimu-widget-identifybuffer #Polygon {
+	background-position: -112px -59px; 
+}
+
+.jimu-widget-identifybuffer #FreehandPolygon {
+	background-position: -166px -59px; 
+}
+
+.jimu-widget-identifybuffer .attrTable:hover {
+    background-color: #EEE;
+}
+
+.jimu-widget-identifybuffer .menu_context {
+    border-radius: 5px;
+    cursor: pointer;
+	width: 30px;
+	height: 20px;
+	line-height: 5px;
+	font-size: 2em;
+	text-align: center;
+	position: relative;
+	right: -270px;
+}
+.jimu-widget-identifybuffer .menu_context:hover {
+    background: #EEE;
+}

@@ -1,0 +1,12 @@
+{
+	"geometryService": "https://utility.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer",
+	"layerService": "https://services1.arcgis.com/EQKuytW7L0SoDLlp/arcgis/rest/services/buscadorUNGRD/FeatureServer",
+	"maximosBuffer":{
+		"UNIT_METER": 20000,
+		"UNIT_KILOMETER": 20,
+		"UNIT_STATUTE_MILE": 12
+	},
+	"fieldDoc":["ID_FK","Entidad","TipoDoc","url"],
+	"capadoc":"5",
+	"mensajeErrorConsulta": "Hubo un problema consultando los datos de esta capa."	
+}

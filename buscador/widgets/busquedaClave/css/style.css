@@ -1,0 +1,37 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #888888;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.row-container {
+    display: flex;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.main-container:hover {
+    background-color: #e6e6ff;
+}
+
+.flex-label {
+    align-self: flex-start;
+    text-transform: capitalize;
+    width: 100px;
+    color: #888888;
+    font-size: 12px;
+}
+
+.flex-value {
+    align-self: flex-start;
+    font-size: 12px;
+    color: black;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}

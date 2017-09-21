@@ -1,0 +1,63 @@
+<div>
+    <div class="tab">
+        <button class="tablinks peligro" data-tab="peligro" id="defaultOpen">Peligro</button>
+        <button class="tablinks sistemas" data-tab="sistemas">Sistemas Expuestos</button>
+        <button class="tablinks indicadores" data-tab="indicadores">Indicadores</button>
+        <button class="tablinks declaratorias" data-tab="declaratorias">Declaratorias</button>
+    </div>
+    <section id="peligro" class="tabcontent">
+        <div class="encabezado-municipio">
+            <h5 class="nombre-municipio"></h5>
+        </div>
+        <div class="row">
+            <div class="col3 label">
+                Desbordes
+            </div>
+            <div class="col8">
+                <div id="indicador-desborde" class="indicador no-info"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col3 label">
+                Deslizamiento
+            </div>
+            <div class="col8">
+                <div id="indicador-deslizamiento" class="indicador no-info"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col3 label">
+                Faya
+            </div>
+            <div class="col8">
+                <div id="indicador-faya" class="indicador no-info"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col3 label">
+                Geologica
+            </div>
+            <div class="col8">
+                <div id="indicador-geologica" class="indicador no-info"></div>
+            </div>
+        </div>
+    </section>
+    <section id="sistemas" class="tabcontent">
+        <div class="encabezado-municipio">
+            <h5 class="nombre-municipio"></h5>
+        </div>
+        <canvas id="chart-sistemas" width="330" height="330"></canvas>
+    </section>
+    <section id="indicadores" class="tabcontent">
+        <div class="encabezado-municipio">
+            <h5 class="nombre-municipio"></h5>
+        </div>
+        <canvas id="chart-indicadores" width="330" height="330"></canvas> Fuente: <a href="http://www.dane.gov.co/">DANE</a>
+    </section>
+    <section id="declaratorias" class="tabcontent">
+        <div class="encabezado-municipio">
+            <h5 class="nombre-municipio"></h5>
+        </div>
+        <canvas id="chart-declaratorias" width="330" height="330"></canvas>
+    </section>
+</div>

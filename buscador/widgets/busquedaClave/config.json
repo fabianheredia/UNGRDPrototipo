@@ -1,0 +1,4 @@
+{
+    "urlBusqueda": "https://ungrd.herokuapp.com/documentos/buscar",
+    "urlServicio": "https://services1.arcgis.com/EQKuytW7L0SoDLlp/arcgis/rest/services/buscadorUNGRD/FeatureServer/"
+}
